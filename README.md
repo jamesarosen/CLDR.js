@@ -40,7 +40,8 @@ logic as part of yours. For example, you might write the following:
       }
     };
 
-    function pluralize(key, count) {
-      var form = CLDR.pluralForm(count);
-      return translations[CLDR.defaultLanguage][key][form];
+    function pluralize(key, count, language) {
+      var form = CLDR.pluralForm(count),
+          language = language || CLDR.defaultLanguage;
+      return translations[language][key][form];
     }
