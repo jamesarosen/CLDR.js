@@ -16,6 +16,11 @@ Usage:
     CLDR.pluralForm(1, 'zh');     // => 'other'
     CLDR.pluralForm(26, 'uk');    // => 'many'
 
+If you set `CLDR.defaultLanguage` then the second argument is optional:
+
+    CLDR.defaultLanguage = 'pl';
+    CLDR.pluralForm(22); // => 'few'
+
 Though CLDR.js doens't *provide* an I18n framework, you can use this
 logic as part of yours. For example, you might write the following:
 
