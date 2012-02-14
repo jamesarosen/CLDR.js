@@ -230,11 +230,11 @@
     return Data[language].call(CLDR, +count);
   };
 
-  CLDR.pluralForm.Zero  = 'zero';
-  CLDR.pluralForm.One   = 'one';
-  CLDR.pluralForm.Two   = 'two';
-  CLDR.pluralForm.Few   = 'few';
-  CLDR.pluralForm.Many  = 'many';
-  CLDR.pluralForm.Other = 'other';
+  CLDR.pluralForm.Zero  = Zero;
+  CLDR.pluralForm.One   = One;
+  CLDR.pluralForm.Two   = Two;
+  CLDR.pluralForm.Few   = Few;
+  CLDR.pluralForm.Many  = Many;
+  CLDR.pluralForm.Other = Other;
 
 }(this));
