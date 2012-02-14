@@ -225,7 +225,7 @@
     if (count == null) { throw new Error("CLDR.pluralForm requires a count"); }
     language = language || CLDR.defaultLanguage;
     if (language == null) { throw new Error("CLDR.pluralForm requires a language"); }
-    language = language.replace(/^(\w\w).*/, "$1");
+    language = language.replace(/^(\w\w\w?)-?.*/, "$1");
     if (Data[language] == null) { throw new Error("No CLDR pluralization information for " + language); }
     return Data[language].call(CLDR, +count);
   };
