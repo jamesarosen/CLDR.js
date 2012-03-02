@@ -30,7 +30,7 @@ logic as part of yours. For example, you might write the following:
       'en': {
         'widget': {
           'one': 'one widget',
-          'other': '{{count}} widget'
+          'other': '{{count}} widgets'
         }
       },
       'jp': {
