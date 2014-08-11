@@ -1,0 +1,27 @@
+{
+  "name": "CLDR.js",
+  "version": "1.0.2",
+  "homepage": "https://github.com/jamesarosen/CLDR.js",
+  "authors": [
+    "James A. Rosen"
+  ],
+  "description": "CLDR logic in Javascript.",
+  "main": "plurals.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "internationalization",
+    "pluralization",
+    "unicode",
+    "CLDR"
+  ],
+  "license": "APLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
